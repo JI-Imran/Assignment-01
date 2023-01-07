@@ -1,9 +1,12 @@
+/* =====  Common CSS ======*/
+
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* =====  Header CSS ======*/
 
 #header {
     height: 800px;
@@ -34,6 +37,9 @@
     text-decoration: none;
     color: rgb(243, 220, 10);
 }
+
+/* =====  Hero Section CSS ======*/
+
 #hero-section{
     height: 800px;
     margin: 100px;
@@ -57,13 +63,15 @@
 }
 #hero-section ul li::before{
     content: '';
-    padding-left: -40px;
+    margin-left: -30px;
     position: absolute;
     width: 20px;
     height: 20px;
     background-image: url(images/icons/check-mark.png);
     background-size: contain;
 }
+
+/* =====  Plan/ Aim Section CSS ======*/
 
 #plan h4{
     text-align: center;
@@ -89,6 +97,9 @@
 .aims div p{
     color: rgb(123, 123, 123);
 }
+
+
+/* =====  Gradient Photo CSS ======*/
 
 .gradient-photo{
     background: url(images/watch.png);
@@ -133,6 +144,10 @@
     z-index: 50;
     border-radius: 5px;
 }
+
+
+/* =====  Footer Section CSS ======*/
+
 #footer{
     background: #000000;
     color: #ffffff;
