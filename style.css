@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 /* =====  Header CSS ======*/
 
@@ -60,6 +61,7 @@
     padding: 10px 100px 0px 680px;
     font-size: 15px;
     position: relative;
+    overflow: hidden;
 }
 #hero-section ul li::before{
     content: '';
